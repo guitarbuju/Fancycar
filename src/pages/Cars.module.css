@@ -1,0 +1,18 @@
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateX(120px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .move {
+    animation: fadeInUp 0.5s ease-in-out;
+    animation-fill-mode: both;
+  }
+  
+  
+ 
