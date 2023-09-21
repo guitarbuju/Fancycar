@@ -154,6 +154,20 @@ const carsInventory = [
     img4: "https://i0.wp.com/www.car-revs-daily.com/wp-content/uploads/2015/06/McLaren-F1-GT-Longtail-Silver-3.jpg?ssl=1",
   },
   {
+    id: "0118",
+    Title: "QUATTRO RALLY ",
+    Manufacturer: "Audi",
+    Model: "Quattro",
+    Color: { title: "yellow", hex: "#FBBF24" },
+    Year: "1984",
+    Price: 150000,
+    Desc:"The Audi Quattro was the first rally car to take advantage of the then-recently changed rules that allowed the use of four-wheel drive in competition racing. It won consecutive competitions for the next two years.[4] To commemorate the success of the original vehicle, all subsequent Audi production automobiles with this four-wheel-drive system were badged with the trademark quattro with a lower case q letter.  The Audi Quattro shared many parts and platform with the Coupé version of the Audi 80 (B2).The quattro was internally designated Typ 85, a production code it shared with the quattro versions of the Audi Coupé. Its characteristic flared wheelarches were styled by Martin Smith. The Audi Quattro also had independent front and rear suspension.",
+    img1: 'https://i.etsystatic.com/40704512/r/il/b5bb4d/4641711293/il_1588xN.4641711293_f660.jpg',
+    img2: "https://i.etsystatic.com/40704512/r/il/233e1d/4641711765/il_1588xN.4641711765_2hdq.jpg",
+    img3: "https://c4.wallpaperflare.com/wallpaper/676/914/507/audi-audi-quattro-car-rally-cars-wallpaper-preview.jpg",
+    img4: "https://i.pinimg.com/originals/de/d0/4f/ded04f069e204cfb3fb2b86d4e0e261c.jpg",
+  },
+  {
     id: "0112",
     Title: "BLUE DANUVE ",
     Manufacturer: "Mercedes - Benz",
@@ -223,6 +237,21 @@ const carsInventory = [
     img3: "https://upload.wikimedia.org/wikipedia/commons/6/6d/1980_Blue_Chevy_Corvette_with_486_engine%3B_Custom_Rear.jpg",
     img4: "https://www.joesgoldengasoline.com.au/wp-content/uploads/2020/10/1980-Chevrolet-Corvette-dark-blue-7.jpg",
   },
+  {
+    id: "0117",
+    Title: "SHELBY COBRA ",
+    Manufacturer: "Ford",
+    Model: "AC Cobra",
+    Color: { title: "yellow", hex: "#FBBF24" },
+    Year: "1962",
+    Price: 200000,
+    Desc:'Take a good long look at Carroll Shelbys unrestored original Cobra: Its tiny, especially by todays standards. In fact, its 4 in. shorter, 5 in. narrower and 200 lb. lighter than a first-generation Mazda Miata. Yet, it has a 260-cu.-in. Ford V-8 stuffed under its aluminum hood. The AC Cobra is an Anglo-American sports car built in the years 1962 to 1966 by the manufacturer AC Cars. Contrary to popular belief, this was not the first car to use a lightweight European aluminum chassis and body and a powerful American V8 engine, but it was arguably the most famous.',
+    img1: 'https://c4.wallpaperflare.com/wallpaper/356/680/32/shelby-1965-cobra-yellow-wallpaper-preview.jpg',
+    img2: "https://i.ytimg.com/vi/L1FXV6bxddc/sddefault.jpg",
+    img3: "https://c4.wallpaperflare.com/wallpaper/511/444/982/1965-cars-cobra-shelby-wallpaper-preview.jpg",
+    img4: "https://i.pinimg.com/1200x/0a/ac/61/0aac6108cd2a97734b5078fcd7d81d35.jpg",
+  },
+  
 ];
 
 export default carsInventory;
