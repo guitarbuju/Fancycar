@@ -16,7 +16,7 @@ const About = () => {
       >
         <div className="hero-content flex-col lg:flex-row">
           <img
-            src={carInventory[13].img1}
+            src={carInventory[16].img1}
             className="max-w-sm rounded-lg shadow-2xl"
           />
           <div>

@@ -251,7 +251,48 @@ const carsInventory = [
     img3: "https://c4.wallpaperflare.com/wallpaper/511/444/982/1965-cars-cobra-shelby-wallpaper-preview.jpg",
     img4: "https://i.pinimg.com/1200x/0a/ac/61/0aac6108cd2a97734b5078fcd7d81d35.jpg",
   },
-  
+  {
+    id: "0118",
+    Title: "OCEAN MANTA ",
+    Manufacturer: "Bizzarini",
+    Model: "Manta",
+    Color: { title: "blue", hex: "#00A2ff" },
+    Year: "1968",
+    Price: 150000,
+    Desc:'The Manta was designed by the Italian industrial designer Giorgetto Giugiaro. Giugiaro, born in 1938, headed the design studio of coachbuilder Bertone from 1959 and held the same position at Carrozzeria Ghia from 1965. After parting ways with Ghia in early 1967, he initially founded the design studio Ital Styling, which only existed for about a year. In order to be able to offer construction services in the future in addition to pure design work, Giugiaro entered into a collaboration with Aldo Mantovani, Fiats long-standing production manager.[1] Together they founded the company SIRP (Studi Italiani Realizzazione Prototipi S.p.A.) in February 1968, which was renamed Italdesign in the same year.[2] The companys first design study was to be presented at the Turin Motor Show in October 1968.',
+    img1: 'https://www.coches.com/fotos_historicas/italdesign/Bizzarrini-Manta-1968/italdesign_bizzarrini-manta-1968_r11.jpg',
+    img2: "https://cdn-images.motor.es/image/m/720w.webp/fotos-noticias/2017/01/min652x435/bizzarrini-manta-deportivo-para-tres-201733359_3.jpg",
+    img3: "https://www.classicdriver.com/sites/default/files/styles/article_full/public/import/articlesv2/images/_uk/16210/bizzarrini_manta_06pop.jpg?itok=kvGDV6ae",
+    img4: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuFdgmGyUBhKaE4XGwmoXr25X0XKTwQHleGg&usqp=CAU"
+  },
+  {
+    id: "0119",
+    Title: "MERCEDES 111 ",
+    Manufacturer: "Mercedes-Benz",
+    Model: "C-111-II",
+    Color: { title: "yellow", hex: "##FBBF24" },
+    Year: "1970",
+    Price: 350000,
+    Desc:'The Mercedes-Benz C111 was a series of experimental automobiles produced by Mercedes-Benz in the 1960s and 1970s. The company was experimenting with new engine technologies, including Wankel engines, diesel engines, and turbochargers, and used the basic C111 platform as a testbed. Other experimental features included multi-link rear suspension, gull-wing doors and a luxurious interior with leather trim and air conditioning. Total production was 16 cars: 13 first and second generation Wankel engined cars, two diesel engined third generation cars used in the Nardò record attempt, and a single V8 engined fourth generation car.[3]Mercedes-Benz introduced the C112 at the Frankfurt Motor Show in 1991 as a proposed production sports car. The car used a mid-mounted 6.0 L V12 engine. After accepting 700 deposits, the company decided not to proceed with production.',
+    img1: 'https://cloudfront-us-east-1.images.arcpublishing.com/infobae/I46EFXMT4BHYTK34O33FHOG3CI.jpg',
+    img2: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Mercedes-Benz_C111.jpg",
+    img3: "https://espirituracer.com/archivos/2020/04/mercedes-c111-ii-5.jpg",
+    img: "https://www.quadis.es/documents/80345/93398/coches_50_aniversario_mercedes_c111_1.jpg/1ba54f5d-bb05-4340-b06b-c18d52bf1729"
+  },
+  {
+    id: "0120",
+    Title: "THE BANDIT ",
+    Manufacturer: "Pontiac",
+    Model: "Firebird Trans-am",
+    Color: { title: "black", hex: "#4a4a4a" },
+    Year: "1980",
+    Price: 80000,
+    Desc:'The Pontiac Firebird is an American automobile that was built and produced by Pontiac from the 1967 to 2002 model years.[1] Designed as a pony car to compete with the Ford Mustang, it was introduced on February 23, 1967, five months after GMs Chevrolet divisions platform-sharing Camaro.[2] This also coincided with the release of the 1967 Mercury Cougar, Fords upscale, platform-sharing version of the Mustang.[3][4]The name "Firebird" was also previously used by GM for the General Motors Firebird in the 1950s and early 1960s concept cars.[5]',
+    img1: 'https://i.ebayimg.com/images/g/oaAAAOSwrIxiTEQM/s-l1200.webp',
+    img2: "https://www.hitmantransam.com/Pages/images/decals78loop1.jpg",
+    img3: "https://d1gl66oyi6i593.cloudfront.net/wp-content/uploads/2017/10/pontiac-firebird-t-top.jpg",
+    img4: "https://journal.classiccars.com/media/2021/08/1989-Pontiac-Firebird-Turbo-Trans-Am-Indy-Pace-Car-Edition-interior.jpg"
+  }
 ];
 
 export default carsInventory;
