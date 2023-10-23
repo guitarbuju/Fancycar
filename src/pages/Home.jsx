@@ -24,7 +24,7 @@ const Home = () => {
         initial={{ opacity: 0, scale: 0.1 ,x:1000}}
         animate={{ opacity: 1, scale: 1, x:0 }}
         exit={{ opacity: 0, scale: 0.1 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1,delay:1 }}
       />
       <div>
         <h1 className="text-5xl font-bold">Experience the Legend</h1>
