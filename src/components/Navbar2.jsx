@@ -3,17 +3,22 @@ import header from "../assets/‎header.png";
 
 const Navbar2 = () => {
   return (
-    <div className="flex ml-24 ">
+    <div className="flex ml-24 gap-2">
+    
+       <img src={header} className=" -ml-20 block sm:hidden w-full mb-4" alt="Header" />
       <header>
-        <img src={header} className="w-4/4 -mt-16" alt="Header" />
+        <img src={header} className=" -ml-20 hidden sm:block" alt="Header" />
+       
       </header>
 
+    
+
       <div
-        className="navbar bg-transparent text-gray-400 h-5 mt-4 w-"
+        className="sm:navbar bg-transparent text-gray-400 h-5 mt-4 "
         style={{ fontFamily: "Raleway" }}
       >
         <div className="flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 sm:text-lg">
             <li>
               {" "}
               <NavLink to="/" >

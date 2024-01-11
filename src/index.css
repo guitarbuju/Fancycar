@@ -16,4 +16,5 @@ body {
   background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
   color: rgba(245, 245, 245, 0.855);
   font-family: Raleway;
+  min-height: 100vh;
 }

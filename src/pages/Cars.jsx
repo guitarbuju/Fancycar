@@ -25,7 +25,7 @@ const Cars = () => {
     <div className="container">
 
     
-      <div className="flex gap-2 flex-wrap ml-10">
+      <div className=" flex flex-col  sm:flex sm:flex-row flex-wrap gap-2 mt-20 ml-10 ">
         {carsInventory.map((car, index) => (
           <motion.div
             key={index}
@@ -35,7 +35,7 @@ const Cars = () => {
             transition={{ duration: 1 }}
           >
             
-              <CarCard
+              <CarCard 
                 title={car.Title}
                 price={car.Price}
                 img={car.img1}

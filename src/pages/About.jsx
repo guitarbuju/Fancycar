@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="flex flex-col ml-20">
+    <div className="flex flex-col mt-20">
    
       <motion.div
         className="hero  bg-transparent"
@@ -14,10 +14,10 @@ const About = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 4 }}
       >
-        <div className="hero-content flex-col lg:flex-row">
+        <div className="hero-content flex-col lg:flex-row ">
           <img
             src={carInventory[16].img1}
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="w-60 rounded-lg shadow-2xl lg:w-2/4"
           />
           <div>
             <h1 className="text-5xl font-bold text-gray-400">
@@ -47,7 +47,7 @@ const About = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={carInventory[11].img1}
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="w-60 lg:w-2/4 rounded-lg shadow-2xl"
           />
           <div>
             <h1 className="text-5xl font-bold">Timeless Classics Await You!</h1>
@@ -71,7 +71,7 @@ const About = () => {
         <div className="hero-content flex-col lg:flex-row">
           <img
             src={carInventory[4].img4}
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="max-w-sm rounded-lg shadow-2xl w-60 lg:w-2/4 "
           />
           <div>
             <h1 className="text-5xl font-bold text-gray-400 ">
@@ -118,7 +118,7 @@ const About = () => {
         <div className="hero-content flex-col lg:flex-row">
           <img
             src={carInventory[7].img1}
-            className="max-w-sm rounded-lg shadow-2xl opacity-60"
+            className="w-60 lg:w-2/4  rounded-lg shadow-2xl opacity-60"
           />
           <div>
             <h1 className="text-5xl font-bold text-gray-400">
