@@ -18,8 +18,8 @@ const CarCard = ({ title, price, img, pickCar, manufacturer, model }) => {
       <figure className=" sm:overflow-visible">
         <img src={img} alt={title} className="sm:w-full" />
       </figure>
-      <div className=" mt-5 relative  w-1/2 sm:w-full flex-col sm:flex sm:justify-center sm:align-middle">
-        <h2 className=" text-gray-400 text-xs sm:text-lg">{title}</h2>
+      <div className="mt-5 relative  w-1/2  sm:w-full flex-col ml-16">
+        <h2 className="text-center text-gray-400 text-xs sm:text-lg">{title}</h2>
         <div className="text-xs sm:text-md sm:flex sm:justify-center ">
           <p>{manufacturer}</p>
           <p>{model}</p>

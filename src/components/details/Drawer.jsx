@@ -14,7 +14,7 @@ const Drawer = ({ car }) => {
         </div>
         <div className="drawer-side">
           <label htmlFor="my-drawer-4" className="drawer-overlay"></label>
-          <div className="menu p-4 w-80 min-h-full flex flex-col gap-4  " >
+          <div className="menu p-4 w-80 min-h-full flex flex-col gap-4 bg-black sm:bg-transparent" >
             {/* Sidebar content here */}
            <KnowMore car={ car }/>
            <Link to='/checkout'>
