@@ -12,7 +12,7 @@ const Approved = () => {
 
   return (
     <motion.div
-     className="hero  bg-transparent"
+     className="hero  bg-transparent mt-40"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -20,7 +20,7 @@ const Approved = () => {
         >
       <div className="hero min-h-screen bg-transparent -mt-20">
         <div className="hero-content flex-col lg:flex-row">
-          <img src={car.img1} className="max-w-sm rounded-lg shadow-2xl" />
+          <img src={car.img1} className="sm:full w-80  rounded-lg shadow-2xl" />
           <div>
             <h1 className="text-5xl font-bold mb-8">You&apos;ve Made it!</h1>
             <p className="py-2 text-left">

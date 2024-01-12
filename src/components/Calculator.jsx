@@ -46,19 +46,19 @@ const Calculator = () => {
 
   return (
     <motion.div
-     className="hero  bg-transparent"
+     className="hero  bg-transparent "
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 4 }}
         >
-      <div className="hero  bg-transparent mb-20">
-        <div className="hero-content flex lg:flex-row-reverse">
+      <div className="hero  bg-transparent mb-20 ">
+        <div className="hero-content flex-col-reverse  sm:flex-row-reverse ">
           <form
-            className=" rounded-lg shadow-2xl bg-base-200  p-10"
-            style={{ width: "400px" }}
+            className=" rounded-lg shadow-2xl bg-base-200  p-10 sm:w-96 w-80"
+            // style={{ width: "400px" }}
           >
-            <div className="flex gap-2 mb-4">
+            <div className="flex gap-2 mb-4 text-center">
               <h1 className="text-gray-800 text-2xl">{car.Manufacturer}</h1>
               <h1 className="text-gray-800 text-2xl">{car.Model}</h1>
               <h1 className="text-gray-800 text-2xl">{car.Year}</h1>
@@ -135,9 +135,9 @@ const Calculator = () => {
             </div>
           </form>
 
-          <div className="bg-transparent w-2/4">
+          <div className="bg-transparent mt-20 sm:w-2/4">
             <h1 className="text-5xl font-bold">Calculate Financing Online!</h1>
-            <p className="py-6 text-left">
+            <p className=" text-left mt-2">
               For your comfort, Fancycar.com has designed a car finance
               calculator enabling you to calculate the payment painlessly. You
               can use our loan calculator to ensure that the financing solution
@@ -147,7 +147,7 @@ const Calculator = () => {
               for you!
             </p>
             
-            <h1 className="text-4xl font-bold">  Tailored Financial Solutions!!!</h1>
+            <h1 className="text-2xl sm:text-4xl font-bold mt-2">  Tailored Financial Solutions!!!</h1>
             
             
           </div>

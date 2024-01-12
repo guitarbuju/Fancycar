@@ -39,7 +39,7 @@ const Checkout = () => {
       <div>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="card grid grid-cols-4 gap-4 bg-base-200"
+          className="card grid grid-cols-2 gap-2 sm:grid-cols-4  sm:gap-4 bg-base-200"
         >
           <label htmlFor="First Name" className="text-gray-800 mr-2">
             First Name

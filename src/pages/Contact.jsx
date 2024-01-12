@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <>
       <section
-        className="bg-transparent py-20 lg:py-[120px] overflow-hidden relative -mt-24"
+        className="bg-transparent py-20 lg:py-[120px] overflow-hidden relative mt-20 sm:-mt-24"
         style={{ fontFamily: "Raleway" }}
       >
         <div className="container">
