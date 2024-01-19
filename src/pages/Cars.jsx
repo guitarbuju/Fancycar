@@ -25,7 +25,7 @@ const Cars = () => {
     <div className="container">
 
     
-      <div className=" flex flex-col  sm:flex sm:flex-row flex-wrap gap-2 mt-20 ml-10 ">
+      <div className=" flex flex-col  md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:ml-0 gap-4 mt-20 ml-10 md:mt-5 ">
         {carsInventory.map((car, index) => (
           <motion.div
             key={index}

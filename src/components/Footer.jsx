@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <footer className="sm:footer p-10 bg-transparent text-neutral-content mt-10  flex-col items-center ">
+      <footer className="md:footer p-10 bg-transparent text-neutral-content mt-10  text-sm md:flex md:justify-center md:align-middle">
         <nav >
           <header className="footer-title">Company</header>
           <a className="link link-hover">About us</a>
