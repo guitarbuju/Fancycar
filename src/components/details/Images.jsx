@@ -17,12 +17,12 @@ const Images = ({ car }) => {
   };
 
   return (
-    <div className=" sm:w-2/4 sm:-mt-28 sm:-ml-5 -mt-16">
+    <div className=" md:w-2/4 md:-mt-28 md:-ml-5 lg:w-3/4 -mt-16">
     
       <div className="flex">
-        <div className="w-full sm:w-3/4 flex flex-col gap-2 mt-20">
+        <div className="w-full md:w-3/4 flex flex-col gap-2 mt-20">
           <motion.img
-            className=" sm:mb-4 rounded-lg sm:w-full sm:h-full ml-10 w-full"
+            className=" md:mb-4 rounded-lg md:w-full md:h-full ml-10 w-full"
             src={mainImg}
             key={mainImg}
             initial={{ opacity: 0 }}
@@ -37,7 +37,7 @@ const Images = ({ car }) => {
         </div>
         <div className="flex flex-col gap-2 ml-14 mt-20" style={{objectFit:'cover'}}>
           <motion.button
-            className="w-20 sm:w-36  "
+            className="w-20 md:w-36  "
             whileHover={hover}
             onClick={() => ChangemainImg(car.img2)}
           >
@@ -45,7 +45,7 @@ const Images = ({ car }) => {
             <img src={car.img2} className="rounded-lg" />
           </motion.button>
           <motion.button
-            className="w-20 sm:w-36  "
+            className="w-20 md:w-36  "
             whileHover={hover}
             onClick={() => ChangemainImg(car.img3)}
           >
@@ -53,7 +53,7 @@ const Images = ({ car }) => {
             <img src={car.img3} className="rounded-lg"/>
           </motion.button>
           <motion.button
-             className="w-20 sm:w-36  "
+             className="w-20 md:w-36  "
             whileHover={hover}
             onClick={() => ChangemainImg(car.img4)}
           >
@@ -61,7 +61,7 @@ const Images = ({ car }) => {
             <img src={car.img4} className="rounded-lg"/>
           </motion.button>
           <motion.button
-            className="w-20 sm:w-36  "
+            className="w-20 md:w-36  "
             whileHover={hover}
             onClick={() => ChangemainImg(car.img1)}
           >

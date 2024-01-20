@@ -47,7 +47,7 @@ const Steve = ({ car }) => {
     setRotate(0);
   };
   return (
-    <div className="hidden sm:flex -mt-64 -ml-6">
+    <div className="hidden sm:flex -mt-64 ml-4">
       <AnimatePresence>
         <motion.div
           style={{

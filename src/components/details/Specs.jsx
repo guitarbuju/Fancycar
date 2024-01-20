@@ -14,7 +14,7 @@ const Specs = ({ car }) => {
 
   return (
     <>
-      <div className="w-full rounded-x sm:h-52 sm:w-56 opacity-60 text-gray-500 bg-white rounded-lg sm:-mt-8 ">
+      <div className="w-full rounded-x sm:h-52 sm:w-56 sm:-mt-8 opacity-60 text-gray-500 bg-white rounded-lg  ">
         <h1>TITLE</h1>
         <p className={`font-extrabold opacity-100 text-xs`} style={style}>
           {car.Title}
