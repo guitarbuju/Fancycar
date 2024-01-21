@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="flex flex-col mt-20">
+    <div className="flex flex-col mt-20 ">
    
       <motion.div
         className="hero  bg-transparent"
@@ -14,13 +14,13 @@ const About = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 4 }}
       >
-        <div className="hero-content flex-col lg:flex-row ">
+        <div className=" flex-col lg:flex-row ">
           <img
             src={carInventory[16].img1}
             className="w-60 rounded-lg shadow-2xl lg:w-2/4"
           />
           <div>
-            <h1 className="text-5xl font-bold text-gray-400">
+            <h1 className="text-5xl font-bold text-gray-400 mt-8">
               Welcome to Fancycar.com
             </h1>
             <h3 className="text-2xl font-bold text-gray-400">

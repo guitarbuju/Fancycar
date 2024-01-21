@@ -1,24 +1,24 @@
 const Footer = () => {
   return (
     <div>
-      <footer className="sm:footer p-10 bg-transparent text-neutral-content mt-10  flex-col items-center ">
-        <nav >
+      <footer className="md:footer p-10 bg-transparent text-neutral-content text-sm md:flex md:justify-between  md:align-middle md:text-xs">
+        <nav>
           <header className="footer-title">Company</header>
           <a className="link link-hover">About us</a>
-          <a className=" ml-2 link link-hover">Contact</a>
+          <a className="  link link-hover">Contact</a>
         </nav>
 
         <nav>
           <header className="footer-title">Links</header>
           <a className="link link-hover" href="https://www.ferrari.com/it-IT?setPreferredLocale=true">Ferrari</a>
-          <a className="ml-2 link link-hover" href='https://www.porsche.com/spain/?utm_campaign=G_Porsche_SEM_AO_Brand_Pure%20Brand_CPC&utm_medium=Google&utm_source=Google&utm_content=text&gclid=EAIaIQobChMI4dbHsfy4gQMV0NzVCh1dHgQEEAAYASAAEgKEWfD_BwE&gclsrc=aw.ds'>Porsche</a>
-          <a className="ml-2 link link-hover" href='https://www.lamborghini.com/en-en'>Lamborghini</a>
+          <a className=" link link-hover" href='https://www.porsche.com/spain/?utm_campaign=G_Porsche_SEM_AO_Brand_Pure%20Brand_CPC&utm_medium=Google&utm_source=Google&utm_content=text&gclid=EAIaIQobChMI4dbHsfy4gQMV0NzVCh1dHgQEEAAYASAAEgKEWfD_BwE&gclsrc=aw.ds'>Porsche</a>
+          <a className=" link link-hover" href='https://www.lamborghini.com/en-en'>Lamborghini</a>
         </nav>
         <nav>
           <header className="footer-title">Legal</header>
           <a className="link link-hover">Terms of use</a>
-          <a className="ml-2 link link-hover">Privacy policy</a>
-          <a className="ml-2 link link-hover">Cookie policy</a>
+          <a className="mlink link-hover">Privacy policy</a>
+          <a className=" link link-hover">Cookie policy</a>
         </nav>
         <nav>
           <header className="footer-title">Social</header>

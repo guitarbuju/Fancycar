@@ -7,7 +7,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'custom-xm': '667px',  // Add your custom breakpoints here
+        
+      },
+    },
   },
   plugins: [daisyui],
 }
