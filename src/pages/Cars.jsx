@@ -23,9 +23,7 @@ const Cars = () => {
 
   return (
     <div className="container">
-
-    
-      <div className=" flex flex-col  md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:ml-0 gap-4 mt-20 ml-10 md:mt-5 ">
+      <div className=" flex flex-col items-center md:grid md:grid-cols-2 md:ml-10 lg:grid-cols-3 xl:grid-cols-4 lg:ml-0 gap-4 mt-20  md:mt-5 ">
         {carsInventory.map((car, index) => (
           <motion.div
             key={index}
@@ -33,6 +31,7 @@ const Cars = () => {
             animate={{ opacity: 1, scale: 1 }} 
             exit={{ opacity: 0, scale: 0.1 }}
             transition={{ duration: 1 }}
+            className="flex justify-center align-middle"
           >
             
               <CarCard 

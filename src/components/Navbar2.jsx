@@ -3,26 +3,19 @@ import header from "../assets/‎header.png";
 
 const Navbar2 = () => {
   return (
-    <div className="flex ml-24 gap-2 xl:mt-8 ">
-    
-       <img src={header} className="-ml-24 block sm:hidden w-full mb-4" alt="Header" />
-    
-        <img src={header} className="w-3/4 -mt-12 -ml-24 hidden sm:block" alt="Header" />
-
-
-    
+    <div className="flex flex-col  gap-2  md:flex md:justify-center  md:-mt-20 xl:-mt-24">
+      <img src={header} className=" block sm:hidden w-full sm:w-3/4 mb-4"  alt="Header" />
+      <img src={header} className="w-full sm:w-3/4  hidden sm:block" alt="Header" />
 
       <div
-        className=" bg-transparent text-gray-400 h-5 mt-4 "
+        className=" bg-transparent text-gray-400 h-5  -mt-10 mb-14 md:-mt-20"
         style={{ fontFamily: "Raleway" }}
       >
-        <div className="flex justify-center align-middle md:flex-col ">
-          <ul className="menu menu-horizontal px-1 sm:text-xs sm:w-72 md:w-72">
+        <div className="z-50">
+          <ul className="menu menu-horizontal px-1 sm:text-lg w-full flex justify-center align-middle ">
             <li>
               {" "}
-              <NavLink to="/" >
-                Home
-              </NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
               <NavLink to="/about">About</NavLink>

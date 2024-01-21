@@ -9,11 +9,11 @@ const Detail = () => {
 
   return (
     <div >
-      <div className="md:flex md:justify-center md:align-middle gap-2  sm:ml-48 mr-40">
+      <div className="md:flex md:justify-center md:align-middle gap-2  sm:ml-8 lg:ml-28 mr-40">
       <div>
           <motion.label
           htmlFor="my-drawer-4"
-          className="btn btn-outline btn-warning btn-sm relative sm:absolute mb-2 md:mt-80  md:w-40 md:ml-8"
+          className="btn btn-outline btn-warning btn-sm relative sm:absolute mb-2 md:btn-md md:mt-64  md:w-40 md:ml-8 ml-32"
           initial={{ opacity: 0, scale: 0.1 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.1 }}
@@ -22,7 +22,7 @@ const Detail = () => {
           Know More..
         </motion.label>
         </div>
-        <div className="md:flex md:gap-2 ">
+        <div className="md:flex md:gap-2 w-full">
           <Specs car={car} />
           <Images car={car} />
         </div>
