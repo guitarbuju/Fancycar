@@ -12,7 +12,7 @@ const CarCard = ({ title, price, img, pickCar, manufacturer, model }) => {
 
   return (
     <div
-      className="card bg-transparent overflow-contain md:w-80 md:h-80 border xl:w-72"
+      className="card bg-transparent overflow-contain w-72 h-72 border xl:w-72"
       style={{ boxShadow: " 3px 3px 3px 2px black" }}
     >
       <figure className=" sm:overflow-visible">
@@ -28,7 +28,7 @@ const CarCard = ({ title, price, img, pickCar, manufacturer, model }) => {
       </div>
       <div className="">
         <motion.button
-          className="btn btn-warning btn-outline btn-xs mt-2 opacy-60"
+          className="btn btn-warning btn-outline btn-xs  opacy-60"
           onClick={pickCar}
           whileHover={hover}
         >

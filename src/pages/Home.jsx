@@ -7,9 +7,9 @@ const Home = () => {
   
 
   return (
-    <div className="sm:flex gap-4  ">
+    <div className="sm:flex gap-4 mt-10 ">
       <motion.img
-        className="w-40 h-40 md:w-2/4 md:h-2/4 -mt-10"
+        className="w-3/4 "
         src={countach}
         // style={{ width: "800px", marginTop: "-50px", opacity: 0.9 }}
         initial={{ opacity: 0, scale: 0.1 ,x:1000}}
@@ -17,7 +17,7 @@ const Home = () => {
         exit={{ opacity: 0, scale: 0.1 }}
         transition={{ duration: 1,delay:1 }}
       />
-      <div>
+      <div className="flex flex-col items-center justify-center">
         <h1 className="text-2xl font-bold md:text-4xl">Experience the Legend</h1>
         <p className="py-2 md:text-xs">
           {" "}
@@ -27,7 +27,7 @@ const Home = () => {
           a reality.
         </p>
         <Link to="/cars">
-          <button className="btn btn-warning btn-outline">
+          <button className="btn btn-warning btn-outline mt-5">
             Get your dream car today
           </button>
         </Link>
