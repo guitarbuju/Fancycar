@@ -9,7 +9,7 @@ const Navbar2 = () => {
 
       
        
-          <ul className=" bg-transparent text-gray-400 menu menu-horizontal px-1 sm:text-lg w-full flex justify-center align-middle "
+          <ul className=" bg-transparent text-gray-400 menu menu-horizontal px-1 custom-xm:text-xs sm:text-lg w-full flex justify-center align-middle "
            style={{ fontFamily: "Raleway" }}>
             <li>
               {" "}

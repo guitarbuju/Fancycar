@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="sm:flex gap-4 mt-10 ">
       <motion.img
-        className="w-3/4 "
+        className="w-3/4 custom-xm:w-2/4"
         src={countach}
         // style={{ width: "800px", marginTop: "-50px", opacity: 0.9 }}
         initial={{ opacity: 0, scale: 0.1 ,x:1000}}
@@ -18,8 +18,8 @@ const Home = () => {
         transition={{ duration: 1,delay:1 }}
       />
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-2xl font-bold md:text-4xl">Experience the Legend</h1>
-        <p className="py-2 md:text-xs">
+        <h1 className="text-2xl font-bold md:text-4xl ">Experience the Legend</h1>
+        <p className="py-2 custom-xm:text-sm md:text-xs lg:text-lg">
           {" "}
           Whether you&apos;re an avid collector or a first-time buyer,
           we&apos;re here to assist you on your journey to automotive
