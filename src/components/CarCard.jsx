@@ -15,12 +15,13 @@ const CarCard = ({ title, price, img, pickCar, manufacturer, model }) => {
       className="card bg-transparent overflow-contain w-72 h-72 border xl:w-72"
       style={{ boxShadow: " 3px 3px 3px 2px black" }}
     >
+     <h2 className="text-center text-gray-400 text-xs md:text-md ">{title}</h2>
       <figure className=" sm:overflow-visible">
-        <img src={img} alt={title} className="sm:w-full" />
+        <img src={img} alt={title} className="sm:w-full object-cover" />
       </figure>
-      <div className="mt-5 relative  w-full  sm:w-full flex-col ">
-        <h2 className="text-center text-gray-400 text-xs md:text-md ">{title}</h2>
-        <div className="text-sm gap-2 text-md flex justify-center ">
+      <div className="relative  w-full  sm:w-full flex-col ">
+       
+        <div className="text-sm gap-2 text-md flex justify-center h-10">
           <p>{manufacturer}</p>
           <p>{model}</p>
           <p>{price} EU</p>
