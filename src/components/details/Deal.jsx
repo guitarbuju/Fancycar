@@ -19,8 +19,8 @@ const formatedNet = net.toLocaleString('en-US', {
   });
 
   return (
-    <div className="flex flex-row gap-2 justify-center align-middle sm:ml-20 sm:-mt-2 mt-2 ml-16">
-      <div className="sm:w-40 sm:h-20 w-30 border-2 opacity-60 text-gray-500 bg-white rounded-lg text-xs p-2">
+    <div className="flex flex-row gap-2 justify-center align-middle pt-2 pl-4">
+      <div className="sm:w-80 sm:h-20 w-30 border-2 opacity-60 text-gray-500 bg-white rounded-lg text-xs p-2">
         <h1 className="text-xs font-bold ">DISCOUNT</h1>
         <h1>{formatedDiscount}</h1>
         <h1 className="text-xs font-bold">PAY ONLY</h1>

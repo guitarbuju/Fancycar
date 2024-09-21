@@ -13,7 +13,7 @@ const Specs = ({ car }) => {
 
   return (
     <>
-      <div className="w-72 ml-5 gap-2 sm:grid sm:grid-cols-2 sm:h-24 rounded-x  opacity-60 text-gray-500 bg-white rounded-lg  ">
+      <div className="w-full  gap-2 grid grid-cols-2 h-24 rounded-x  opacity-60 text-gray-500 bg-white rounded-lg  ">
         <div className="flex flex-col items-center align-center w-full h-10 text-left sm:text-md ">
           <h1 className="text-md">TITLE</h1>
           <p className="font-extrabold opacity-100 text-sm" style={style}>
