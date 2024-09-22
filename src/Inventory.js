@@ -135,8 +135,8 @@ const carsInventory = [
     Price: 245000,
     Desc:'The Aston Martin V8 Vantage was hailed at its 1977 introduction as “Britain’s First Supercar” for its 170 mph (270 km/h) top speed. Its engine was shared with the Lagonda, but it used high-performance camshafts, increased compression ratio, larger inlet valves and bigger carburettors mounted on new manifolds for increased output.. Straight-line performance was the best of the day, with acceleration from 0–60 mph (97 km/h) in 5.3 seconds, one-tenth of a second quicker than Ferrari’s mighty Daytona!The first series examples produced 375bhp and series specific details such as a blanked bonnet vent and a separate rear spoiler.',
     img2: "https://images4.alphacoders.com/698/698459.jpg",
-    img1: "https://www.rswilliams.co.uk/wp-content/uploads/2017/04/12543Front.jpg",
-    img3: "https://www.rswilliams.co.uk/wp-content/uploads/2017/04/12543Rear.jpg",
+    img1: "https://images.postwarclassic.com/pimg/494560/2038259/1200-800-r2w/aston-martin-v8-volante-left-hand-drive-automatic-1970-1979.jpg",
+    img3: "https://www.classicdriver.com/sites/default/files/users/39196/cars_images/39196-884533-car-20220113_214414-195._aston_martin_v8_photo_c_christian_martin_.jpg",
     img4: "https://notoriousluxury.files.wordpress.com/2015/06/us-spec-4.jpg",
   },
   {

@@ -51,7 +51,7 @@ const Steve = ({ car }) => {
       <AnimatePresence>
         <motion.div
           style={{
-            width: "280px",
+            width: "240px",
             position: "absolute",
             marginLeft: "-255px",
             marginTop: "380px",
@@ -72,6 +72,7 @@ const Steve = ({ car }) => {
           <img src={filteredImg[0].img} />
         </motion.div>
       </AnimatePresence>
+     
     </div>
   );
 };
