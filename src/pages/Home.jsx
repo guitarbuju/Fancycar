@@ -7,9 +7,9 @@ const Home = () => {
   
 
   return (
-    <div className="sm:flex gap-4 mt-10 ">
+    <div className="sm:flex justify-center align-middle gap-4 mt-10 ">
       <motion.img
-        className="w-3/4 custom-xm:w-2/4"
+        className="w-3/4 custom-xm:w-2/4 pl-14 sm:pl-0"
         src={countach}
         // style={{ width: "800px", marginTop: "-50px", opacity: 0.9 }}
         initial={{ opacity: 0, scale: 0.1 ,x:1000}}
