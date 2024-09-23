@@ -10,7 +10,7 @@ import mcBlack from "../../assets/steve/‎steveBLACK.png";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Steve = ({ car }) => {
-  console.log(car.Color.title);
+ 
 
   const steveColor = [
     {
@@ -39,7 +39,8 @@ const Steve = ({ car }) => {
     },
   ];
 
-  const filteredImg = steveColor.filter((img) => img.color === car.Color.title);
+  const colorTitle= car?.Color?.title || 'unknown'
+  const filteredImg = steveColor.filter((img) => img.color === colorTitle);
   console.log(filteredImg);
 
   const [rotate, setRotate] = useState(0);
@@ -69,8 +70,12 @@ const Steve = ({ car }) => {
           }}
           onAnimationComplete={onAnimationComplete}
         >
-          {/* <img src={car.Color.title === 'yellow' ? steve2:steve} /> */}
-          <img src={filteredImg[0].img} />
+          
+          {filteredImg.length > 0 ? (
+          <img src={filteredImg[0].img} alt={`${colorTitle} car`} />
+        ) : (
+          <p>No image available</p>
+        )}
         </motion.div>
       </AnimatePresence>
      

@@ -4,7 +4,7 @@
 
 const Specs = ({ car }) => {
   console.log(car);
-  const carColor = car.Color.hex;
+  const carColor = car?.Color?.hex || 'unknown';
 
   const style = {
     color: carColor,
@@ -26,7 +26,7 @@ const Specs = ({ car }) => {
         </div>
         <div className="flex flex-col items-center align-center w-full h-8 text-left sm:text-md p-2">
           <h1 className="text-sm">COLOR</h1>
-          <p style={style} className="text-xs">{car.Color.title}</p>
+          <p style={style} className="text-xs">{carColor ? carColor :''}</p>
         </div>
         <div className="flex flex-col items-center align-center w-full h-8 text-left sm:text-md p-2">
           <h1 className="text-sm">YEAR</h1>

@@ -1,16 +1,32 @@
-import { create } from 'zustand'
 
 
-export const useCarStore = create((set)=>({
-    asignedCar:'',
-    setAsignedCar:(car) => set({ asignedCar: car }),
-})
+import { create } from 'zustand';
+import { persist } from 'zustand/middleware';
 
-)
+// Car store with persistence
+export const useCarStore = create(
+  persist(
+    (set) => ({
+      asignedCar: '',
+      setAsignedCar: (car) => set({ asignedCar: car }),
+    }),
+    {
+      name: 'car-storage', 
+      getStorage: () => localStorage, 
+    }
+  )
+);
 
-export const useBuyerStore = create((set)=>({
-    asignedBuyer:'',
-    setAsignedBuyer:(buyer) => set({ asignedBuyer: buyer }),
-})
 
-)
+export const useBuyerStore = create(
+  persist(
+    (set) => ({
+      asignedBuyer: '',
+      setAsignedBuyer: (buyer) => set({ asignedBuyer: buyer }),
+    }),
+    {
+      name: 'buyer-storage',
+      getStorage: () => localStorage,
+    }
+  )
+);
