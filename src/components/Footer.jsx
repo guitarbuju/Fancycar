@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <footer className="md:footer p-10 bg-transparent text-neutral-content text-sm md:flex md:justify-between  md:align-middle md:text-xs">
+      <footer className="mt-6 md:footer  p-5 bg-transparent text-neutral-content text-sm md:flex md:justify-between  md:align-middle md:text-xs">
         <nav>
           <header className="footer-title">Company</header>
           <a className="link link-hover">About us</a>
@@ -22,7 +22,7 @@ const Footer = () => {
         </nav>
         <nav>
           <header className="footer-title">Social</header>
-          <div className="grid grid-flow-col gap-4">
+          <div className="flex justify-center align-middle gap-2">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

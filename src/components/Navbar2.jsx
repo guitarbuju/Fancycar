@@ -1,18 +1,16 @@
 import { NavLink } from "react-router-dom";
-import header from "../assets/‎header.png";
+import header from "../assets/new-header.png";
 
 const Navbar2 = () => {
   return (
-    <div className="flex flex-col  gap-2  md:flex md:justify-center  md:-mt-20 xl:-mt-24">
-      <img src={header} className=" block sm:hidden w-full sm:w-3/4 mb-4"  alt="Header" />
-      <img src={header} className="w-full sm:w-3/4  hidden sm:block" alt="Header" />
+    <div className="flex flex-col items-center align-center  gap-2 sm:flex-row sm:justify-center sm:align-middle ">
+      <img src={header} className=" block w-full sm:w-2/4"  alt="Header" />
+      {/* <img src={header} className="w-full sm:w-3/4  hidden sm:block" alt="Header" /> */}
 
-      <div
-        className=" bg-transparent text-gray-400 h-5  -mt-10 mb-14 md:-mt-20"
-        style={{ fontFamily: "Raleway" }}
-      >
-        <div className="z-50">
-          <ul className="menu menu-horizontal px-1 sm:text-lg w-full flex justify-center align-middle ">
+      
+       
+          <ul className=" bg-transparent text-gray-400 menu menu-horizontal px-1 custom-xm:text-xs sm:text-lg w-full flex justify-center align-middle "
+           style={{ fontFamily: "Raleway" }}>
             <li>
               {" "}
               <NavLink to="/">Home</NavLink>
@@ -40,9 +38,8 @@ const Navbar2 = () => {
               </details>
             </li> */}
           </ul>
-        </div>
+      
       </div>
-    </div>
   );
 };
 

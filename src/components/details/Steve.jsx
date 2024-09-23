@@ -10,7 +10,7 @@ import mcBlack from "../../assets/steve/‎steveBLACK.png";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Steve = ({ car }) => {
-  console.log(car.Color.title);
+ 
 
   const steveColor = [
     {
@@ -39,7 +39,8 @@ const Steve = ({ car }) => {
     },
   ];
 
-  const filteredImg = steveColor.filter((img) => img.color === car.Color.title);
+  const colorTitle= car?.Color?.title || 'unknown'
+  const filteredImg = steveColor.filter((img) => img.color === colorTitle);
   console.log(filteredImg);
 
   const [rotate, setRotate] = useState(0);
@@ -47,14 +48,15 @@ const Steve = ({ car }) => {
     setRotate(0);
   };
   return (
-    <div className="hidden sm:flex -mt-72 ml-4">
+   
       <AnimatePresence>
         <motion.div
+        className="hidden lg:block"
           style={{
-            width: "280px",
+            width: "240px",
             position: "absolute",
-            marginLeft: "-255px",
-            marginTop: "380px",
+            marginLeft: "0px",
+            marginTop: "200px",
           }}
           initial={{ y: -2000, opacity: 0, rotate: 360 }}
           animate={{ y: 0, opacity: 1, width: 280, rotate: rotate }}
@@ -68,11 +70,16 @@ const Steve = ({ car }) => {
           }}
           onAnimationComplete={onAnimationComplete}
         >
-          {/* <img src={car.Color.title === 'yellow' ? steve2:steve} /> */}
-          <img src={filteredImg[0].img} />
+          
+          {filteredImg.length > 0 ? (
+          <img src={filteredImg[0].img} alt={`${colorTitle} car`} />
+        ) : (
+          <p>No image available</p>
+        )}
         </motion.div>
       </AnimatePresence>
-    </div>
+     
+   
   );
 };
 

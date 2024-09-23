@@ -22,8 +22,8 @@ const Cars = () => {
   }, []); // Empty dependency array to ensure it only runs once
 
   return (
-    <div className="container">
-      <div className=" flex flex-col items-center md:grid md:grid-cols-2 md:ml-10 lg:grid-cols-3 xl:grid-cols-4 lg:ml-0 gap-4 mt-20  md:mt-5 ">
+    
+      <div className=" flex flex-col items-center custom-xm:grid custom-xm:grid-cols-2 custom-xm:ml-10 lg:grid-cols-3 xl:grid-cols-4 lg:ml-0 gap-4 custom-xm:mt-1 md:mt-5 ">
         {carsInventory.map((car, index) => (
           <motion.div
             key={index}
@@ -47,7 +47,7 @@ const Cars = () => {
           </motion.div>
         ))}
       </div>
-    </div>
+    
   );
 };
 

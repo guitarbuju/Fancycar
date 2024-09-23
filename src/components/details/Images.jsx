@@ -17,12 +17,12 @@ const Images = ({ car }) => {
   };
 
   return (
-    <div className=" md:w-2/4 md:-mt-28 md:-ml-5 lg:w-3/4 -mt-16">
+    <div className=" sm:w-1/4 md:w-2/4 lg:w-3/4  sm:ml-14">
     
-      <div className="flex">
-        <div className="w-full md:w-3/4 lg:w-full lg:h-full flex flex-col gap-2 mt-20">
+      <div className="flex justify-center align-middle w-full">
+        <div className="w-full  md:w-2/4 lg:h-full flex flex-col gap-2 sm:mt-10 ">
           <motion.img
-            className=" md:mb-4 rounded-lg md:w-full md:h-2/4 ml-10 w-full"
+            className=" md:mb-4  rounded-xl pl-2 w-full "
             src={mainImg}
             key={mainImg}
             initial={{ opacity: 0 }}
@@ -35,9 +35,9 @@ const Images = ({ car }) => {
           />
           <Deal car={car} />
         </div>
-        <div className="flex flex-col gap-2 ml-14 mt-20" style={{objectFit:'cover'}}>
+        <div className="flex flex-col gap-2 ml-6 sm:mt-10" style={{objectFit:'cover'}}>
           <motion.button
-            className="w-20 md:w-28  "
+            className="w-20  "
             whileHover={hover}
             onClick={() => ChangemainImg(car.img2)}
           >
@@ -45,7 +45,7 @@ const Images = ({ car }) => {
             <img src={car.img2} className="rounded-lg" />
           </motion.button>
           <motion.button
-            className="w-20 md:w-28  "
+            className="w-20   "
             whileHover={hover}
             onClick={() => ChangemainImg(car.img3)}
           >
@@ -53,7 +53,7 @@ const Images = ({ car }) => {
             <img src={car.img3} className="rounded-lg"/>
           </motion.button>
           <motion.button
-             className="w-20 md:w-28  "
+             className="w-20  "
             whileHover={hover}
             onClick={() => ChangemainImg(car.img4)}
           >
@@ -61,7 +61,7 @@ const Images = ({ car }) => {
             <img src={car.img4} className="rounded-lg"/>
           </motion.button>
           <motion.button
-            className="w-20 md:w-28  "
+            className="w-20 "
             whileHover={hover}
             onClick={() => ChangemainImg(car.img1)}
           >

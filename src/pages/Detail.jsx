@@ -3,17 +3,25 @@ import Specs from "../components/details/Specs";
 import { useCarStore } from "../../store";
 import Drawer from "../components/details/Drawer";
 import { motion } from "framer-motion";
+import Steve from '../components/details/Steve'
 
 const Detail = () => {
   const car = useCarStore((state) => state.asignedCar);
 
   return (
-    <div >
-      <div className="md:flex md:justify-center md:align-middle gap-2  sm:ml-8 lg:ml-28 mr-40">
+   
+      <div className="custom-xs:flex custom-xs:justify-center custom-xs:align-middle gap-2 sm:-mt-4  lg:ml-28 ">
       <div>
-          <motion.label
+          
+        </div>
+        <div className="flex flex-col sm:flex-row gap-2 w-full md:mt-5">
+          <Specs car={car} />
+          <Images car={car} />
+          <Steve car={car} />
+        </div>
+        <motion.label
           htmlFor="my-drawer-4"
-          className="btn btn-outline btn-warning btn-sm relative sm:absolute mb-2 md:btn-md md:mt-64  md:w-40 md:ml-8 ml-32"
+          className="btn btn-outline btn-warning btn-sm mt-4 sm:absolute md:relative sm:-mt-8 md:mt-2"
           initial={{ opacity: 0, scale: 0.1 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.1 }}
@@ -21,17 +29,11 @@ const Detail = () => {
         >
           Know More..
         </motion.label>
-        </div>
-        <div className="md:flex md:gap-2 w-full">
-          <Specs car={car} />
-          <Images car={car} />
-        </div>
-       
         <Drawer car={car} />
       
         
       </div>
-    </div>
+  
   );
 };
 
