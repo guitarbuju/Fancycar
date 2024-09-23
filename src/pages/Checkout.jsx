@@ -21,10 +21,10 @@ const Checkout = () => {
   };
 
   return (
-    <div className="text-left -mt-10">
+    <div className="text-left ">
       <Calculator />
       <h1 className="text-5xl font-bold text-center"> Send Us Your Request!</h1>
-      <p className="py-6">
+      <p className="">
         {" "}
         Owning a car has never been easier with our financing solutions.
         Fancycar.com Auto’s finance services enables everyone with any budget to

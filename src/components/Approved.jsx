@@ -20,9 +20,9 @@ const Approved = () => {
         >
       <div className="hero min-h-screen bg-transparent">
         <div className="hero-content flex-col ">
-          <img src={car.img1} className="w-3/4 rounded-lg shadow-2xl" />
+          <img src={car.img1} className="w-3/4 sm:w-2/4 rounded-lg shadow-2xl" />
           <div className="text-sm lg:text-lg">
-            <h1 className="text-5xl font-bold mb-8">You&apos;ve Made it!</h1>
+            <h1 className="text-5xl font-bold mb-8">You&apos;ve Made it!!!!!</h1>
             <p className="py-2 text-left">
               Dear {buyer}, We are thrilled to congratulate you on the approval of
               your car loan! It&apos;s a momentous step towards acquiring the

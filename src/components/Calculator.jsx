@@ -58,7 +58,7 @@ const Calculator = () => {
             className=" rounded-lg shadow-2xl bg-base-200  p-10 sm:w-96 w-80"
             // style={{ width: "400px" }}
           >
-            <div className="flex gap-2 mb-4 text-center">
+            <div className="flex gap-2 flex-wrap justify-center align-middle mb-4 text-center">
               <h1 className="text-gray-800 text-2xl">{car.Manufacturer}</h1>
               <h1 className="text-gray-800 text-2xl">{car.Model}</h1>
               <h1 className="text-gray-800 text-2xl">{car.Year}</h1>
@@ -135,7 +135,7 @@ const Calculator = () => {
             </div>
           </form>
 
-          <div className="bg-transparent mt-20 sm:w-2/4">
+          <div className="bg-transparent sm:w-2/4">
             <h1 className="text-5xl font-bold">Calculate Financing Online!</h1>
             <p className=" text-left mt-2">
               For your comfort, Fancycar.com has designed a car finance
