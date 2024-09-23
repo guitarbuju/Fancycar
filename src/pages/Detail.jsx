@@ -19,7 +19,7 @@ const Detail = () => {
         </div>
         <motion.label
           htmlFor="my-drawer-4"
-          className="btn btn-outline btn-warning btn-sm mt-4  "
+          className="btn btn-outline btn-warning btn-sm mt-4 sm:absolute md:relative sm:-mt-8"
           initial={{ opacity: 0, scale: 0.1 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.1 }}

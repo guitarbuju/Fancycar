@@ -47,9 +47,10 @@ const Steve = ({ car }) => {
     setRotate(0);
   };
   return (
-    <div className="hidden sm:flex -mt-72 ml-4">
+   
       <AnimatePresence>
         <motion.div
+        className="hidden lg:block"
           style={{
             width: "240px",
             position: "absolute",
@@ -73,7 +74,7 @@ const Steve = ({ car }) => {
         </motion.div>
       </AnimatePresence>
      
-    </div>
+   
   );
 };
 

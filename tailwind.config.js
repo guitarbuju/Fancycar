@@ -9,7 +9,8 @@ export default {
   theme: {
     extend: {
       screens: {
-        'custom-xm': '667px',  // Add your custom breakpoints here
+        'custom-xm': '667px', 
+        'galaxys8-xm':'740px'
         
       },
     },
