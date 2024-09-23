@@ -21,10 +21,11 @@ const Checkout = () => {
   };
 
   return (
-    <div className="text-left -mt-10">
+    <div className="text-left ">
       <Calculator />
+      <div className="hero flex flex-col items-center mt-4">
       <h1 className="text-5xl font-bold text-center"> Send Us Your Request!</h1>
-      <p className="py-6">
+      <p className="p-4 sm:p-10 sm:text-md ">
         {" "}
         Owning a car has never been easier with our financing solutions.
         Fancycar.com Auto’s finance services enables everyone with any budget to
@@ -36,7 +37,8 @@ const Checkout = () => {
         used car finance solutions, our experts will get in touch with you and
         provide more details.
       </p>
-      <div>
+      </div>
+      <div className="hero">
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="card grid grid-cols-2 gap-2 sm:grid-cols-4  sm:gap-4 bg-base-200"
@@ -181,7 +183,8 @@ const Checkout = () => {
             Submit
           </button>
         </form>
-      </div>
+        </div>
+      
     </div>
   );
 };
