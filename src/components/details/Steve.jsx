@@ -54,8 +54,8 @@ const Steve = ({ car }) => {
           style={{
             width: "240px",
             position: "absolute",
-            marginLeft: "-255px",
-            marginTop: "380px",
+            marginLeft: "0px",
+            marginTop: "200px",
           }}
           initial={{ y: -2000, opacity: 0, rotate: 360 }}
           animate={{ y: 0, opacity: 1, width: 280, rotate: rotate }}

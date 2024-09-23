@@ -17,10 +17,10 @@ const Images = ({ car }) => {
   };
 
   return (
-    <div className=" sm:w-1/4 md:w-2/4 lg:w-3/4 sm:ml-14">
+    <div className=" sm:w-1/4 md:w-2/4 lg:w-3/4  sm:ml-14">
     
       <div className="flex justify-center align-middle w-full">
-        <div className="w-full  md:w-2/4 lg:h-full flex flex-col gap-2 sm:mt-10">
+        <div className="w-full  md:w-2/4 lg:h-full flex flex-col gap-2 sm:mt-10 ">
           <motion.img
             className=" md:mb-4  rounded-xl pl-2 w-full "
             src={mainImg}

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-import Steve from "./Steve";
+
 
 const Specs = ({ car }) => {
   console.log(car);
@@ -33,7 +33,7 @@ const Specs = ({ car }) => {
           <p className="text-xs">{car.Year}</p>
         </div>
       </div>
-      <Steve car={car} />
+     
     </>                          
 
    
