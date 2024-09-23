@@ -2,8 +2,8 @@
 
 const KnowMore = ({ car }) => {
 
-    const upperCasesManufacturer= car.manufacturer ? car.manufacturer.toUpperCase():'unknonw'
-    const upperCasesModel= car.model ? car.model.toUpperCase( ) : 'unknown'
+    const upperCasesManufacturer= car.Manufacturer.toUpperCase();
+    const upperCasesModel= car.Model.toUpperCase();
 
     const carColor = car && car.Color && car.Color.hex ? car.Color.hex : 'unknown';
 
